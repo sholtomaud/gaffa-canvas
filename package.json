@@ -4,7 +4,7 @@
     "name": "Sholto Maud",
     "email": "sholto.maud@gmail.com"
   },
-  "version": "1.3.0",
+  "version": "0.0.1",
   "main": "canvas.js",
   "repository": {
     "type": "git",
@@ -26,6 +26,6 @@
   "readmeFilename": "README.md",
   "description": "canvas view for gaffa",
   "homepage": "https://github.com/shotlom/gaffa-canvas",
-  "_id": "gaffa-canvas@1.3.0",
-  "_from": "gaffa-canvas@^1.3.0"
+  "_id": "gaffa-canvas@0.0.1",
+  "_from": "gaffa-canvas@^0.0.1"
 }
