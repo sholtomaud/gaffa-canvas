@@ -1,0 +1,31 @@
+{
+  "name": "gaffa-canvas",
+  "author": {
+    "name": "Sholto Maud",
+    "email": "sholto.maud@gmail.com"
+  },
+  "version": "1.3.0",
+  "main": "canvas.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shotlom/gaffa-canvas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shotlom/gaffa-canvas/issues"
+  },
+  "keywords": [
+    "gaffa",
+    "canvas",
+    "view"
+  ],
+  "peerDependencies": {
+    "gaffa": "^1.4.3"
+  },
+  "license": "MIT",
+  "readme": "# gaffa-canvas\n\ncanvas view for gaffa\n\n## Install:\n\n    npm i gaffa-canvas\n\n## Add to gaffa:\n\n    gaffa.registerConstructor(require('gaffa-canvas'));\n\n# API\n\n## Properties (instanceof Gaffa.Property)\n\n### value (get and set)\n\n    The rendered elements value.\n\n    when the rendered element triggers a change event, it will set the elements value into this binding.\n\n    The event which causes the element to set the value can be overriden by assigning an event name to 'updateEventName':\n\n        canvas.updateEventName = 'keyup';\n\n### type (get)\n\n    The rendered elements type attribute.\n\n### maxLength (get)\n\n    The rendered elements maxLength attribute.\n\n### placeholder (get)\n\n    The rendered elements placeholder attribute.\n\n### disabled (get)\n\n    The rendered elements disabled attribute.\n\n    The value recieved is truthy checked, and either sets the disabled attribute to disabled, or removes the disabled attribute.\n\n### required (get)\n\n    The rendered elements required attribute.\n\n    The value recieved is truthy checked, and either sets the required attribute to required, or removes the required attribute.",
+  "readmeFilename": "README.md",
+  "description": "canvas view for gaffa",
+  "homepage": "https://github.com/shotlom/gaffa-canvas",
+  "_id": "gaffa-canvas@1.3.0",
+  "_from": "gaffa-canvas@^1.3.0"
+}
